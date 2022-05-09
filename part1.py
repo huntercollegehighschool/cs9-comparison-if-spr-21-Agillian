@@ -24,5 +24,13 @@ if number2 < number1 and number2 < number3:
   smallest = number2
 if number3 < number1 and number3 < number2:
   smallest = number3
+if number1 == number2 == number3:
+  print("The smallest number is ", number1)
+if number1 == number2 and number1 < number3
+  print("The smallest number is ", number2)
+if number1 == number3 and number1 < number2
+  print("The smallest number is ", number1)
+if number2 == number3 and number2 < number1
+  print("The smallest number is ", number3)
   
 print("The smallest number is ", smallest)
